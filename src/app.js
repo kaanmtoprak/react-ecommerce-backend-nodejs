@@ -30,13 +30,6 @@ app.use((err, req, res, next) => {
     return res.status(500).json(err);
   }
 });
-// app.get('/aa',(req,res)=>{
-//   res.send({message:"oldu mk"})
-// })
-// app.post('/he',(req,res)=>{
-//   const he = req.body;
-//   console.log(he)
-//   res.send({message:'başarılı'})
-// })
+
 
 app.listen(4000, () => console.log('Server is up!'));
